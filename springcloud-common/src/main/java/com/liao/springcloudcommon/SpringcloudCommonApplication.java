@@ -10,5 +10,5 @@ public class SpringcloudCommonApplication {
         SpringApplication.run(SpringcloudCommonApplication.class, args);
     }
 	
-	分之一提交
+	住干
 }
