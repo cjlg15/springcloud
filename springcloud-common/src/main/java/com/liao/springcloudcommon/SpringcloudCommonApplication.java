@@ -9,4 +9,6 @@ public class SpringcloudCommonApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringcloudCommonApplication.class, args);
     }
+	
+	分之一提交
 }
