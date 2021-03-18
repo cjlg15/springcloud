@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://106.14.194.171:59027/liao-test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&rewriteBatchedStatements=TRUE"
+    username: root
+    password: XZhenzhuangtodb
+    driver-class-name: com.mysql.jdbc.Driver
