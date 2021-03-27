@@ -6,10 +6,14 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
   application:
-    name: user-service
+    name: order-service
 
 server:
-  port: 1111
+  port: 2222
+
+feign:
+  hystrix:
+    enabled: true
 
 eureka:
   client:
