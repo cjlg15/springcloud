@@ -8,6 +8,13 @@ spring:
   application:
     name: order-service
 
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:9999
+
+
 server:
   port: 2222
 

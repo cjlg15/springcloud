@@ -20,8 +20,10 @@
 
     <modules>
         <module>springcloud-common</module>
-        <module>springcloud-common</module>
+        <module>springcloud-eureka</module>
         <module>springcloud-config</module>
+        <module>springcloud-order</module>
+        <module>springcloud-user</module>
     </modules>
 
     <properties>
