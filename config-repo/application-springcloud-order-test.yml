@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://106.14.194.171:59027/liao-test?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&rewriteBatchedStatements=TRUE"
+    username: root
+    password: XZhenzhuangtodb
+    driver-class-name: com.mysql.jdbc.Driver
+
+  application:
+    name: order-service
+  profiles: springcloud-order
+
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:9999
+
+
+server:
+  port: 2222
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server1:1001/eureka, http://eureka-server2:1002/eureka
+
+  instance:
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+

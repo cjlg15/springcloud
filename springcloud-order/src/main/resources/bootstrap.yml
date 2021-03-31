@@ -1,0 +1,12 @@
+server:
+  port: 2222
+
+spring:
+  application:
+    name: springcloud-order
+
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:9999/

@@ -7,6 +7,7 @@ spring:
 
   application:
     name: order-service
+  profiles: springcloud-order
 
   cloud:
     config:
