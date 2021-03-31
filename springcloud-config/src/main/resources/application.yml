@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://gitee.com/liaoJIAwei/springcloud.git
-          search-paths: /**
+          search-paths: config-repo
           # 私有仓库需要填写
           # username: zhouxingxingtongxue
           # password: liaoJIAwei118312
