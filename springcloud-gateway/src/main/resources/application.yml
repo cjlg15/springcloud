@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: springcloud-gateway
+
+server:
+  port: 5555
+
+zuul:
+  routes:
+    zuul.routes.api-a.path: /api-a/**
+    zuul.routes.api-a.serviceId: user-service
+
+    zuul.routes.api-b.path: /api-b/**
+    zuul.routes.api-b.serviceId: order-service`
+
+    eureka.client.serviceUrl.defaultZone: http://eureka-server1:1001/eureka, http://eureka-server2:1002/eureka
+
+
+
+
+

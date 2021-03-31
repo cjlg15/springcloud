@@ -7,9 +7,10 @@ spring:
       server:
         git:
           uri: https://github.com/zhouxingxingtongxue/springcloud.git
-          search-paths: spring-config
-          username: zhouxingxingtongxue
-          password: liaoJIAwei118312
+          search-paths: /**
+          # 私有仓库需要填写
+          # username: zhouxingxingtongxue
+          # password: liaoJIAwei118312
 
 server:
   port: 9999
